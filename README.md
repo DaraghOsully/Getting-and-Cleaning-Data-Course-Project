@@ -1,6 +1,6 @@
 
 
-The experiments were been carried out with a group of 30 volunteers. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity was captured.
+The experiments were carried out with a group of 30 volunteers. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity was captured.
 
 The obtained dataset had been randomly partitioned into two sets:
      -  the 'train' set - where 70% of the volunteers was selected for generating the training data
@@ -8,7 +8,7 @@ The obtained dataset had been randomly partitioned into two sets:
      
 
 Within the orginal data files supplied in the UCI HAR Dataset
-For each record it is provided:
+For each record the following is provided:
 ======================================
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
@@ -36,7 +36,8 @@ The dataset includes the following files:
 
 - 'test/y_test.txt': Test labels.
 
-- 'test/subject_train.txt' :
+- 'test/subject_train.txt' :Each row identifies the subject who performed the activity for each window sample. Its range 
+                             is from 1 to 30. 
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range 
                              is from 1 to 30. 
 
