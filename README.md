@@ -43,19 +43,20 @@ The dataset includes the following files:
                              is from 1 to 30. 
 
 
+run_analysis.R
 ==========================================
 
 
 The script "run_analysis.R" reads in, in turn, the necessary files to reassemble the partitioned dataset within UCI HAR:
 
- 1: It merges the training and the test sets to create one data set, called "Full Data Set"
+ - It merges the training and the test sets to create one data set, called "Full Data Set"
  
- 2: It extracts only the measurements on the mean and standard deviation for each measurement, and stores them in vectors
+ - It extracts only the measurements on the mean and standard deviation for each measurement, and stores them in vectors
     named 'col means' and 'col_sd' respectively
     
- 3: It uses descriptive activity names to name the activities in "Full Data Set"
+ - It uses descriptive activity names to name the activities in "Full Data Set"
  
- 4: It appropriately labels "Full_Data_Set with descriptive variable names.
+ - It appropriately labels "Full_Data_Set with descriptive variable names.
  
- 5: From "Full Data Set"  it creates and stores an independent tidy data set, "Tidy Data.txt" with the average of each variable for each activity and each subject.
+ - From "Full Data Set"  it creates and stores an independent tidy data set, "Tidy Data.txt" with the average of each variable for each activity and each subject.
  
