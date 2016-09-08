@@ -1,4 +1,6 @@
 
+Human Activity Recognition Using Smartphones
+============================================
 
 The experiments were carried out with a group of 30 volunteers. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity was captured.
 
@@ -7,8 +9,7 @@ The obtained dataset had been randomly partitioned into two sets:
      -  the 'test' set  - where 30% was selected for generating the test data. 
      
 
-Within the orginal data files supplied in the UCI HAR Dataset
-For each record the following is provided:
+For each record the following information has been provided:
 ======================================
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
